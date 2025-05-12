@@ -1,1 +1,2 @@
 # CAPTCHA-Breaker-Using-Spring-Boot-and-OCR
+-Developed a RESTful API using Spring Boot to accept image files and extract text from CAPTCHA images using Tesseract OCR integrated with OpenCV (JavaCV) for image preprocessing. -Implemented custom image preprocessing (grayscale, denoising, blurring, morphological ops) to improve OCR accuracy on noisy or distorted CAPTCHA images. -Tested the API via Postman and automated evaluation scripts, achieving successful decoding on a majority of standard alphanumeric CAPTCHAs; exposed the service via a secure HTTP endpoint. 
